@@ -11,3 +11,5 @@ Simple script to unlock 54 additional Zwift jerseys.
 Project uses the codes on https://zwiftinsider.com/kits/
 
 If you run into issues please don't hesitate to reach out (tis my first public repository)
+
+Note: After running it once myself, I've noticed only a handful of the codes actually work, in the coming days I'll work on figuring out which codes do not work and take them out of the list of codes.
