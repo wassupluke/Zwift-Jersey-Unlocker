@@ -59,8 +59,10 @@ codes = [
 ]
 
 sleep(5)
+
+keyboard = Controller()
+
 for code in codes:
-	keyboard = Controller()
 
 	keyboard.press('p')
 	keyboard.release('p')
