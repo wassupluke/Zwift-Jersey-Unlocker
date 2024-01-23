@@ -1,5 +1,5 @@
 from time import sleep
-import keyboard
+from pynput.keyboard import Key, Controller
 
 codes = [
 'Goalienware',
@@ -60,9 +60,13 @@ codes = [
 
 sleep(5)
 for code in codes:
-	keyboard.press_and_release('p')
+	keyboard = Controller()
+
+	keyboard.press('p')
 	sleep(0.2)
-	keyboard.write(code)
-	keyboard.press_and_release('enter')
+	keyboard.type(code)
+	keyboard.press(Key.enter)
+	keyboard.release(Key.enter)
+
 	sleep(0.2)
 print('done')
