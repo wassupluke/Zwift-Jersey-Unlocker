@@ -63,6 +63,7 @@ for code in codes:
 	keyboard = Controller()
 
 	keyboard.press('p')
+	keyboard.release('p')
 	sleep(0.2)
 	keyboard.type(code)
 	keyboard.press(Key.enter)
